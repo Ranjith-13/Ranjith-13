@@ -5,7 +5,7 @@
 
 ---
 ![](https://komarev.com/ghpvc/?username=Ranjith-13)
-[![](https://visitcount.itsvg.in/api?id=Ranjith-13&label=Profile%20Views&color=12&icon=7&pretty=false)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=Ranjith-13&label=Profile%20Views&color=12&icon=7&pretty=true)](https://visitcount.itsvg.in)
 
 ## 🌐 Socials
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_ranjith_sk_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ranjithsk13) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/ranjithsk13) 
