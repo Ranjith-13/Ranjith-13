@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👋, I'm Ranjith</h1>
-<h3 align="center">I'm a data enthusiast with a side-quest on web design.</h3>
 
 # 💫 About Me:
 🔭 I’m a data enthusiast with a side-quest on web design.<br>👯 Currently pursuing Bachelors of Tech in CSE(Hons) from LPU.<br>🤝 Working on a data visualization project.<br>🌱 I’m currently learning DSA.<br>📫 How to reach me **ranjithsk.data@gmail.com**<br>⚡ Interests: Books, Music and Comics.
@@ -18,8 +17,6 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Ranjith-13&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ranjith-13&label=Profile%20views&color=0e75b6&style=flat" alt="ranjith-13" /> </p>
-
 ---
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ranjith-13&show_icons=true&locale=en&layout=compact" alt="ranjith-13" /></p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ranjith-13&label=Profile%20views&color=0e75b6&style=flat" alt="ranjith-13" /> </p>
 
