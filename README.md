@@ -1,7 +1,7 @@
 <h1 align="center">Hey! 👋, I'm Ranjith</h1>
 
 # 👨‍💻About Me
-🔭 I’m a data enthusiast with a side-quest on web design/edits.<br>👯 Currently pursuing Bachelors of Tech in CSE(Hons) from LPU.<br>🌱 Working on a data visualization project.<br>📫 How to reach me: **ranjithsk.data@gmail.com**<br>⚡ Interests: Books, Music and Comics.<br>📧 Tech Interests: Figma, WordPress, Salesforce, Photoshop, Unity.
+🔭 I’m a data enthusiast with a side-quest on web design/edits.<br>👯 B.Tech CSE(Hons) Graduate from LPU.<br>🌱 Working on a data visualization project.<br>📫 How to reach me: **ranjithsk.data@gmail.com**<br>⚡ Interests: Books, Music and Comics.<br>📧 Tech Interests: Figma, WordPress, Salesforce, Photoshop, Unity.
 
 ---
 ![](https://komarev.com/ghpvc/?username=Ranjith-13)
