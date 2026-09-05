@@ -1,7 +1,7 @@
 ﻿<h1 align="center">Hey! 👋, I'm Ranjith</h1>
 
 # 👨‍💻About Me
-🔭 Big Data Engineer at Saturam, working on Azure and AWS-based data pipelines.<br>🎓 B.Tech CSE(Hons) from Lovely Professional University, specialized in Data Science.<br>🏅 Microsoft Certified: Fabric Data Engineer Associate.<br>📫 How to reach me: **ranjithsk.data@gmail.com**<br>⚡ Off duty: gaming, anime/manga and movies.<br>🛠️ Also enjoy: Figma, WordPress, Salesforce, Photoshop, Premiere Pro, Unity.
+🔭 Big Data Engineer, working on Azure and AWS-based data pipelines.<br>🎓 B.Tech CSE(Hons) from Lovely Professional University, specialized in Data Science.<br>🏅 Microsoft Certified: Fabric Data Engineer Associate.<br>📫 How to reach me: **ranjithsk.data@gmail.com**<br>⚡ Off duty: gaming, anime/manga and movies.<br>🛠️ Also enjoy: Figma, WordPress, Salesforce, Photoshop, Premiere Pro, Unity.
 
 ---
 ![](https://komarev.com/ghpvc/?username=Ranjith-13)
