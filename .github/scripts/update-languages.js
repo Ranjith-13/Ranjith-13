@@ -92,7 +92,7 @@ function buildSvg(languages, totalBytes) {
 async function main() {
   const query = `{
     user(login: "${USERNAME}") {
-      repositories(privacy: PUBLIC, isFork: false, first: 100, ownerAffiliation: OWNER) {
+      repositories(privacy: PUBLIC, isFork: false, first: 100, ownerAffiliations: [OWNER]) {
         nodes {
           name
           languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
