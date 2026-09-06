@@ -1,0 +1,28 @@
+name: Update Card Stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update card stats
+        env:
+          GH_TOKEN: ${{ secrets.TROPHY_TOKEN }}
+        run: node .github/scripts/update-card-stats.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add card.svg
+          git diff --staged --quiet || git commit -m "Update live card stats"
+          git push

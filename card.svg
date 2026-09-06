@@ -1,0 +1,161 @@
+<svg width="640" height="470" viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10141f"/>
+      <stop offset="100%" stop-color="#080a11"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7ee787"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="638" height="468" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="638" height="468" rx="12" fill="url(#bg2)" stroke="#30363d" stroke-width="1"/>
+
+  <g clip-path="url(#cardClip)">
+    <!-- floating winged crest watermark -->
+    <g transform="translate(320,235)" opacity="0.09" stroke="#7ee787" stroke-width="2" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="320,235;320,225;320,235" dur="9s" repeatCount="indefinite"/>
+      <path d="M0,-90 L45,-26 L45,38 L0,90 L-45,38 L-45,-26 Z"/>
+      <circle cx="0" cy="-90" r="6" fill="#7ee787" opacity="0.5" stroke="none"/>
+      <path d="M-40,-40 L-115,-90"/>
+      <path d="M-37,-18 L-128,-50"/>
+      <path d="M-35,4 L-132,10"/>
+      <path d="M-37,26 L-124,50"/>
+      <path d="M40,-40 L115,-90"/>
+      <path d="M37,-18 L128,-50"/>
+      <path d="M35,4 L132,10"/>
+      <path d="M37,26 L124,50"/>
+    </g>
+
+    <g opacity="0.04">
+      <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+        <rect width="4" height="2" fill="#ffffff"/>
+      </pattern>
+      <rect x="1" y="37" width="638" height="431" fill="url(#scan)"/>
+    </g>
+    <!-- ambient scanline sweep -->
+    <rect x="1" y="-40" width="638" height="40" fill="#7ee787" opacity="0.05">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,510" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- titlebar -->
+  <rect x="1" y="1" width="638" height="30" rx="12" fill="#161b22"/>
+  <rect x="1" y="19" width="638" height="12" fill="#161b22"/>
+  <circle cx="22" cy="16" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="16" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="16" r="6" fill="#27c93f"/>
+  <text x="320" y="20" font-family="Consolas,'Courier New',monospace" font-size="12" fill="#8b949e" text-anchor="middle">ranjith@github — zsh</text>
+  <line x1="1" y1="31" x2="639" y2="31" stroke="#30363d" stroke-width="1"/>
+
+  <g font-family="Consolas,'Courier New',monospace" font-size="13.5">
+
+    <!-- block 1: whoami -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;0.02;1" values="0;1;1"/>
+      <text x="24" y="56"><tspan fill="#7ee787">ranjith@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+      <text x="24" y="76"><tspan fill="#e6edf3">Ranjith S K</tspan><tspan fill="#8b949e">  ·  </tspan><tspan fill="#79c0ff">ranjithsk.data@gmail.com</tspan></text>
+      <text x="24" y="96" fill="#8b949e">B.Tech CSE (Hons), Lovely Professional University</text>
+    </g>
+
+    <!-- block 2: fetch.sh -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;0.11;0.12;1" values="0;0;1;1"/>
+      <text x="24" y="126"><tspan fill="#7ee787">ranjith@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">fetch.sh</tspan></text>
+
+      <!-- shout/level-up shockwave ring -->
+      <circle cx="66" cy="182" r="0" fill="none" stroke="#7ee787" stroke-width="2" opacity="0">
+        <animate attributeName="r" dur="14s" repeatCount="indefinite" keyTimes="0;0.11;0.145;1" values="0;0;62;62"/>
+        <animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;0.11;0.145;1" values="0;0.55;0;0"/>
+      </circle>
+      <circle cx="66" cy="182" r="0" fill="none" stroke="#7ee787" stroke-width="1.5" opacity="0">
+        <animate attributeName="r" dur="14s" repeatCount="indefinite" keyTimes="0;0.112;0.15;1" values="0;0;46;46"/>
+        <animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;0.112;0.15;1" values="0;0.7;0;0"/>
+      </circle>
+
+      <g transform="translate(24,140)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" dur="14s" repeatCount="indefinite" keyTimes="0;0.11;0.1225;0.135;1" values="0.6;0.6;1.08;1;1"/>
+          <rect x="0" y="0" width="84" height="84" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+          <g transform="translate(42,42)">
+            <path d="M-25,-15 L-2,-19 L-2,17 L-25,13 Z" fill="url(#badgeGrad)"/>
+            <path d="M25,-15 L2,-19 L2,17 L25,13 Z" fill="url(#badgeGrad)"/>
+            <rect x="-16" y="-9" width="10" height="2" fill="#0d1117" opacity="0.5"/>
+            <rect x="-16" y="-3" width="10" height="2" fill="#0d1117" opacity="0.5"/>
+            <rect x="6" y="-9" width="10" height="2" fill="#0d1117" opacity="0.5"/>
+            <rect x="6" y="-3" width="10" height="2" fill="#0d1117" opacity="0.5"/>
+          </g>
+          <text x="42" y="76" font-size="9" fill="#7ee787" text-anchor="middle">PROFILE</text>
+        </g>
+      </g>
+
+      <g transform="translate(122,140)" font-size="12.5">
+        <text x="0" y="12"><tspan fill="#79c0ff">Role   </tspan><tspan fill="#e6edf3">Big Data Engineer</tspan></text>
+        <text x="0" y="38"><tspan fill="#79c0ff">Stack  </tspan><tspan fill="#e6edf3">Python · SQL · PySpark · Flask · FastAPI</tspan></text>
+        <text x="70" y="60" fill="#e6edf3">React · SQLAlchemy · Git · Tableau</text>
+        <text x="0" y="86"><tspan fill="#79c0ff">Cloud  </tspan><tspan fill="#e6edf3">Azure · AWS · Docker · Terraform · Airflow</tspan></text>
+      </g>
+      <text x="122" y="248"><tspan fill="#79c0ff">Cert   </tspan><tspan fill="#e6edf3">MS Fabric Data Engineer Associate</tspan></text>
+    </g>
+
+    <!-- block 3: off_duty -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;0.23;0.24;1" values="0;0;1;1"/>
+      <text x="24" y="276"><tspan fill="#7ee787">ranjith@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat ~/off_duty.log</tspan></text>
+      <text x="24" y="300"><tspan fill="#d2a8ff">Escapes </tspan><tspan fill="#e6edf3">Music · Manga/Manhwa · Films · Books · Gaming</tspan></text>
+      <text x="24" y="322"><tspan fill="#d2a8ff">Also    </tspan><tspan fill="#e6edf3">Figma · Photoshop · Premiere Pro · Unity</tspan></text>
+    </g>
+
+    <!-- block 4: status + live stats -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;0.30;0.31;1" values="0;0;1;1"/>
+      <text x="24" y="354"><tspan fill="#7ee787">ranjith@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">echo $STATUS</tspan></text>
+      <text x="24" y="376" fill="#ffa657">Building data pipelines. Side quest: everything else.</text>
+      <text x="422" y="376" fill="#e6edf3">
+        <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete" values="1;0"/>
+        _
+      </text>
+
+      <!-- live stat chips -->
+      <g transform="translate(24,396)" font-size="11">
+        <g>
+          <rect width="130" height="40" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+          <g transform="translate(17,19)">
+            <rect x="-10.5" y="-10.5" width="10" height="10" fill="#7ee787" opacity="0.3"/>
+            <rect x="0.5" y="-10.5" width="10" height="10" fill="#7ee787" opacity="0.9"/>
+            <rect x="-10.5" y="0.5" width="10" height="10" fill="#7ee787" opacity="0.6"/>
+            <rect x="0.5" y="0.5" width="10" height="10" fill="#7ee787" opacity="1"/>
+          </g>
+          <text id="stat-contrib" x="40" y="18" font-size="15" font-weight="bold" fill="#ffa657">195</text>
+          <text x="40" y="31" font-size="9" fill="#8b949e">Contributions</text>
+        </g>
+        <g transform="translate(142,0)">
+          <rect width="130" height="40" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+          <g transform="translate(17,19)">
+            <line x1="0" y1="-10" x2="0" y2="10" stroke="#7ee787" stroke-width="2"/>
+            <circle cx="0" cy="-10" r="3.5" fill="#7ee787"/>
+            <circle cx="0" cy="0" r="3.5" fill="#7ee787" opacity="0.7"/>
+            <circle cx="0" cy="10" r="3.5" fill="#7ee787"/>
+          </g>
+          <text id="stat-commits" x="40" y="18" font-size="15" font-weight="bold" fill="#ffa657">185</text>
+          <text x="40" y="31" font-size="9" fill="#8b949e">Commits</text>
+        </g>
+        <g transform="translate(284,0)">
+          <rect width="130" height="40" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+          <g transform="translate(17,19)">
+            <rect x="-11" y="-11" width="14" height="14" rx="2" fill="#7ee787" opacity="0.35"/>
+            <rect x="-7" y="-7" width="14" height="14" rx="2" fill="#7ee787" opacity="0.65"/>
+            <rect x="-3" y="-3" width="14" height="14" rx="2" fill="#7ee787"/>
+          </g>
+          <text id="stat-repos" x="40" y="18" font-size="15" font-weight="bold" fill="#ffa657">8</text>
+          <text x="40" y="31" font-size="9" fill="#8b949e">Repos</text>
+        </g>
+      </g>
+    </g>
+
+  </g>
+</svg>

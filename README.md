@@ -1,7 +1,6 @@
 ﻿<h1 align="center">Hey! 👋, I'm Ranjith</h1>
 
-# 👨‍💻About Me
-🔭 Big Data Engineer, working on Azure and AWS-based data pipelines.<br>🎓 B.Tech CSE(Hons) from Lovely Professional University, specialized in Data Science.<br>🏅 Microsoft Certified: Fabric Data Engineer Associate.<br>📫 How to reach me: **ranjithsk.data@gmail.com**<br>⚡ Off duty: gaming, books/manga and movies.<br>🛠️ Also enjoy: Figma, Photoshop, Premiere Pro, Unity.
+![](card.svg)
 
 ---
 ![](https://komarev.com/ghpvc/?username=Ranjith-13)
