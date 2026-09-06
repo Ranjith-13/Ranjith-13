@@ -68,20 +68,20 @@
       <text x="24" y="126"><tspan fill="#7ee787">ranjith@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">fetch.sh</tspan></text>
 
       <!-- shout/level-up shockwave ring -->
-      <circle cx="66" cy="182" r="0" fill="none" stroke="#7ee787" stroke-width="2" opacity="0">
+      <circle cx="66" cy="189" r="0" fill="none" stroke="#7ee787" stroke-width="2" opacity="0">
         <animate attributeName="r" dur="14s" repeatCount="indefinite" keyTimes="0;0.11;0.145;1" values="0;0;62;62"/>
         <animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;0.11;0.145;1" values="0;0.55;0;0"/>
       </circle>
-      <circle cx="66" cy="182" r="0" fill="none" stroke="#7ee787" stroke-width="1.5" opacity="0">
+      <circle cx="66" cy="189" r="0" fill="none" stroke="#7ee787" stroke-width="1.5" opacity="0">
         <animate attributeName="r" dur="14s" repeatCount="indefinite" keyTimes="0;0.112;0.15;1" values="0;0;46;46"/>
         <animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;0.112;0.15;1" values="0;0.7;0;0"/>
       </circle>
 
-      <g transform="translate(24,140)">
+      <g transform="translate(24,150)">
         <g>
           <animateTransform attributeName="transform" type="scale" dur="14s" repeatCount="indefinite" keyTimes="0;0.11;0.1225;0.135;1" values="0.6;0.6;1.08;1;1"/>
           <rect x="0" y="0" width="84" height="84" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-          <g transform="translate(42,42)">
+          <g transform="translate(42,39)">
             <path d="M-25,-15 L-2,-19 L-2,17 L-25,13 Z" fill="url(#badgeGrad)"/>
             <path d="M25,-15 L2,-19 L2,17 L25,13 Z" fill="url(#badgeGrad)"/>
             <rect x="-16" y="-9" width="10" height="2" fill="#0d1117" opacity="0.5"/>
@@ -89,17 +89,17 @@
             <rect x="6" y="-9" width="10" height="2" fill="#0d1117" opacity="0.5"/>
             <rect x="6" y="-3" width="10" height="2" fill="#0d1117" opacity="0.5"/>
           </g>
-          <text x="42" y="76" font-size="9" fill="#7ee787" text-anchor="middle">PROFILE</text>
+          <text x="42" y="69" font-size="9" fill="#7ee787" text-anchor="middle">PROFILE</text>
         </g>
       </g>
 
       <g transform="translate(122,140)" font-size="12.5">
         <text x="0" y="12"><tspan fill="#79c0ff">Role   </tspan><tspan fill="#e6edf3">Big Data Engineer</tspan></text>
         <text x="0" y="38"><tspan fill="#79c0ff">Stack  </tspan><tspan fill="#e6edf3">Python · SQL · PySpark · Flask · FastAPI</tspan></text>
-        <text x="70" y="60" fill="#e6edf3">React · SQLAlchemy · Git · Tableau</text>
-        <text x="0" y="86"><tspan fill="#79c0ff">Cloud  </tspan><tspan fill="#e6edf3">Azure · AWS · Docker · Terraform · Airflow</tspan></text>
+        <text x="180" y="60" fill="#e6edf3" text-anchor="middle">React · SQLAlchemy · Git · Tableau · Airflow</text>
+        <text x="0" y="86"><tspan fill="#79c0ff">Cloud &amp; DevOps  </tspan><tspan fill="#e6edf3">Azure · AWS · Docker · Terraform</tspan></text>
       </g>
-      <text x="122" y="248"><tspan fill="#79c0ff">Cert   </tspan><tspan fill="#e6edf3">MS Fabric Data Engineer Associate</tspan></text>
+      <text x="122" y="248"><tspan fill="#79c0ff">Cert   </tspan><tspan fill="#e6edf3">Microsoft Fabric Data Engineer Associate</tspan></text>
     </g>
 
     <!-- block 3: off_duty -->
