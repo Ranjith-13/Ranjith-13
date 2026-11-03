@@ -16,7 +16,7 @@ jobs:
       - name: Generate Profile Trophy
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
-          token: ${{ secrets.TROPHY_TOKEN }}
+          token: ${{ github.token }}
           username: Ranjith-13
           file: trophy.svg
           theme: radical
