@@ -16,7 +16,7 @@ jobs:
 
       - name: Update card stats
         env:
-          GH_TOKEN: ${{ secrets.TROPHY_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: node .github/scripts/update-card-stats.js
 
       - name: Commit and push if changed
