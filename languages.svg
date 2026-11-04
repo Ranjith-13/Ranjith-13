@@ -1,36 +1,48 @@
-<svg width="320" height="156" viewBox="0 0 320 156" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="319" height="155" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="319" height="199" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
   <text x="16" y="22" font-family="Consolas,'Courier New',monospace" font-size="14" font-weight="bold" fill="#e6edf3">Most Used Languages</text>
   <g transform="translate(0,34)">
     <rect x="16" y="0" width="288" height="10" rx="5" fill="#0d1117"/>
     <clipPath id="barClip"><rect x="16" y="0" width="288" height="10" rx="5"/></clipPath>
     <g clip-path="url(#barClip)">
-      <rect x="16.00" y="0" width="278.48" height="10" fill="#3572A5"/>
-      <rect x="294.48" y="0" width="5.86" height="10" fill="#663399"/>
-      <rect x="300.34" y="0" width="3.47" height="10" fill="#e34c26"/>
-      <rect x="303.81" y="0" width="0.19" height="10" fill="#f1e05a"/>
+      <rect x="16.00" y="0" width="228.49" height="10" fill="#3572A5"/>
+      <rect x="244.49" y="0" width="50.22" height="10" fill="#3178c6"/>
+      <rect x="294.72" y="0" width="5.49" height="10" fill="#663399"/>
+      <rect x="300.21" y="0" width="1.51" height="10" fill="#89e051"/>
+      <rect x="301.71" y="0" width="1.27" height="10" fill="#e34c26"/>
+      <rect x="302.98" y="0" width="0.66" height="10" fill="#384d54"/>
     </g>
   </g>
   <g transform="translate(0,58)" font-family="Consolas,'Courier New',monospace">
     <g transform="translate(16,0)">
         <circle cx="6" cy="6" r="5" fill="#3572A5"/>
         <text x="18" y="10" font-size="12" fill="#e6edf3">Python</text>
-        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">96.7%</text>
+        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">79.3%</text>
       </g>
       <g transform="translate(16,22)">
-        <circle cx="6" cy="6" r="5" fill="#663399"/>
-        <text x="18" y="10" font-size="12" fill="#e6edf3">CSS</text>
-        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">2.0%</text>
+        <circle cx="6" cy="6" r="5" fill="#3178c6"/>
+        <text x="18" y="10" font-size="12" fill="#e6edf3">TypeScript</text>
+        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">17.4%</text>
       </g>
       <g transform="translate(16,44)">
-        <circle cx="6" cy="6" r="5" fill="#e34c26"/>
-        <text x="18" y="10" font-size="12" fill="#e6edf3">HTML</text>
-        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">1.2%</text>
+        <circle cx="6" cy="6" r="5" fill="#663399"/>
+        <text x="18" y="10" font-size="12" fill="#e6edf3">CSS</text>
+        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">1.9%</text>
       </g>
       <g transform="translate(16,66)">
-        <circle cx="6" cy="6" r="5" fill="#f1e05a"/>
-        <text x="18" y="10" font-size="12" fill="#e6edf3">JavaScript</text>
-        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">0.1%</text>
+        <circle cx="6" cy="6" r="5" fill="#89e051"/>
+        <text x="18" y="10" font-size="12" fill="#e6edf3">Shell</text>
+        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">0.5%</text>
+      </g>
+      <g transform="translate(16,88)">
+        <circle cx="6" cy="6" r="5" fill="#e34c26"/>
+        <text x="18" y="10" font-size="12" fill="#e6edf3">HTML</text>
+        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">0.4%</text>
+      </g>
+      <g transform="translate(16,110)">
+        <circle cx="6" cy="6" r="5" fill="#384d54"/>
+        <text x="18" y="10" font-size="12" fill="#e6edf3">Dockerfile</text>
+        <text x="288" y="10" font-size="12" fill="#8b949e" text-anchor="end">0.2%</text>
       </g>
   </g>
 </svg>
